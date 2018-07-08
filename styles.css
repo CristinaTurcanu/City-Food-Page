@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100%;
+	margin: 0;
+	background: #55557e;
+	font-family: 'Roboto', sans-serif;
+}
+.main-content {
+	width: 368px;
+	margin: 0 auto;
+}
+.icon-bar {
+	width: 100%;
+	margin-top: 90px;
+	display: block;
+}
+.icon-bar a {
+	float: left; 
+	margin: 0.6px;
+	text-align: center; 
+	width: 72px;
+	height: 55px;
+	padding: 11px 0;
+	transition: all 0.3s ease; 
+	background-color: #3d3e52; 
+	color: #aaaabf; 
+	font-size: 30px; 
+}
+
+.icon-bar a:hover {
+	background-color: #333444; 
+}
+
+.icon-bar .active {
+	background: #252525; 
+	transform: scale(1.25);
+	color: #fff;
+}
+
+.box {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.box .box-top {
+	width: 100%;
+	height: 155px;
+	background-image:  url(img/food.jpg);
+	background-size: 100%;
+	background-position: center center;
+}
+.box-top img{
+	width: 18px;
+}
+.box-top h3{
+	font-size: 28px;
+	font-weight: 700;
+	text-shadow: 1px 1px 4px #6c6e8d;
+}
+.box-top p{
+ font-size: 14px;
+ font-weight: 300;
+}
+.box-top .text {
+	color: #fff;
+	padding-top: 90px;
+	padding-left: 15px;
+}
+.box-content {
+	width: 100%;
+	background: #fff;
+}
+.box-content .category {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #d7d7d7;
+	padding: 20px;
+	cursor: pointer;
+}
+.box-content .category:hover .quantity{
+	transform: scale(1.2);
+	color: #333;
+}
+.category p{
+	color: #aaa;
+	font-size: 15px;
+	font-weight: 400;
+}
